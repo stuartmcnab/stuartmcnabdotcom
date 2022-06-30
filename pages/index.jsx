@@ -1,6 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import Button from '@mui/material/Button';
 import styles from '../styles/Home.module.css';
 import Layout from './components/layout';
 
@@ -21,7 +20,6 @@ export default function Home() {
             Stuart McNab
           </h1>
           <h3>Frontend Web Developer</h3>
-          <Button variant="contained">This is an MUI button</Button>
           <p className={styles.description}>
             Get started by editing
             {' '}
