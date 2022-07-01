@@ -1,10 +1,16 @@
 import React from 'react';
-import styles from '../../styles/nav.module.css';
+import Link from 'next/link';
+import styles from '../../styles/Nav.module.css';
 
-export default function Home() {
+export default function Nav() {
     return (
-        <nav>
-            <svg className={styles.burger} focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" /></svg>
-        </nav>
+        <section className={styles.container}>
+            <nav className={styles.nav}>
+                <span className={styles.logo}>
+                    <Link href="/">&#60;&#47;&#62;</Link>
+                </span>
+                <a type="button" className={styles.button} href="mailto:stuartmcnab@protonmail.com">Contact</a>
+            </nav>
+        </section>
     )
 }

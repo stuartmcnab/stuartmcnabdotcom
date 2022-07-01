@@ -1,9 +1,4 @@
-.container {
-  padding: 0 2rem;
-}
-
-.main {
-  min-height: 100vh;
+/* .main {
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -113,4 +108,4 @@
     width: 100%;
     flex-direction: column;
   }
-}
+} */

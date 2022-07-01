@@ -1,0 +1,23 @@
+.container{
+    background-color: #B8C2BC;
+}
+.linkBar {
+    margin: 0 auto;
+    color: #525B56;
+    background-color: #B8C2BC;
+    padding: 1rem;
+    overflow: visible;
+    max-width: 1072px;
+}
+.linkBar a{
+    line-height: 32px;
+}
+.linkBar a:first-of-type{
+    margin: 0 1rem 0 0;
+}
+.logos {
+    float: right;
+}
+.logos img{
+    filter: brightness(0) saturate(100%) invert(35%) sepia(11%) saturate(331%) hue-rotate(94deg) brightness(90%) contrast(85%);
+}

@@ -1,26 +1,12 @@
 import React from 'react';
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
-import Layout from './components/layout';
-import HeroSection from './components/heroSection';
-import Contracting from './components/contracting';
+import styles from '../../styles/Home.module.css'
 
-export default function Home() {
-  return (
-    <Layout>
-      <div className={styles.container}>
-        <Head>
-          <title>Stuart McNab - Frontend Web Developer</title>
-          <meta name='description' content='The official portfolio website for Stuart McNab, a front end web developer working with React.js, JavaScript, TypeScript, AWS and more to bring the best experience to users of web apps' />
-          <link rel='icon' href='/favicon.ico' />
-          <meta name='viewport' content='initial-scale=1, width=device-width' />
-        </Head>
-        
-        <HeroSection />
+export default function Portfolio() {
+    <section id="portfolio">
+        This is the portfolio section. So many lovely things
+         <main className={styles.main}>
 
-        <main className={styles.main}>
-          <Contracting />
-          {/* <div className={styles.grid}>
+          <div className={styles.grid}>
             <a href='https://nextjs.org/docs' className={styles.card}>
               <h2>Documentation &rarr;</h2>
               <p>Find in-depth information about Next.js features and API.</p>
@@ -48,9 +34,7 @@ export default function Home() {
                 Instantly deploy your Next.js site to a public URL with Vercel.
               </p>
             </a>
-          </div> */}
+          </div>
         </main>
-      </div>
-    </Layout>
-  );
+    </section>
 }
