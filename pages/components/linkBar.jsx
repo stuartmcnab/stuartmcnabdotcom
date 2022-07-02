@@ -10,8 +10,8 @@ export default function LinkBar() {
         <section className={styles.container}>
             <div className={styles.linkBar}>
                 <span className={styles.links}>
-                    <Link href="/#portfolio">Portfolio</Link>
-                     <Link href="/#contracting">Contracting</Link>
+                    {/* <Link href="/#portfolio">Portfolio</Link> */}
+                     {/* <Link href="/#contracting">Contracting</Link> */}
                 </span>
                 <span className={styles.logos}>
                     <a href="https://uk.linkedin.com/in/stuart-mcnab" target="_blank" rel="noreferrer">

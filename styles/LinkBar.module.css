@@ -8,6 +8,8 @@
     padding: 1rem;
     overflow: visible;
     max-width: 1072px;
+    line-height: 32px;
+    height: 2rem;
 }
 .linkBar a{
     line-height: 32px;
