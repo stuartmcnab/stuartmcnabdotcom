@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 import Layout from './components/layout';
 import HeroSection from './components/heroSection';
 import HireMe from './components/hireme';
-import Portfolio from './components/portfolio';
+// import Portfolio from './components/portfolio';
 import Profile from './components/profile'
 
 export default function Home() {
