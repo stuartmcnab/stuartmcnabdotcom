@@ -9,7 +9,7 @@ export default function Nav() {
                 <span className={styles.logo}>
                     <Link href="/">&#60;&#47;&#62;</Link>
                 </span>
-                <a type="button" className={styles.button} href="mailto:stuartmcnab@protonmail.com">Contact</a>
+                <a type="button" className={styles.button} href="mailto:stuartmcnab@protonmail.com">Email me</a>
             </nav>
         </section>
     )
