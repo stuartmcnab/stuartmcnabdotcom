@@ -56,7 +56,8 @@ export default function Home() {
           </div>
         </div>
         <footer className='my-2 p-2 bg-black text-white text-center h-30'>
-        <p>&copy; Stuart McNab {" "}{(new Date().getFullYear())}</p>
+        <div className='p-2'>Find me on: <a className='mx-2 hover:bg-pink-600 p-2' href="https://www.linkedin.com/in/stuart-mcnab">LinkedIn</a><a className='mx-2 hover:bg-green-600 p-2' href="https://github.com/stuartmcnab">GitHub</a></div>
+        <div>&copy; Stuart McNab {" "}{(new Date().getFullYear())}</div>
       </footer>
       </main>
     </>
