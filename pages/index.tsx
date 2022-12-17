@@ -49,7 +49,7 @@ export default function Home() {
             <h3 className='bg-white w-fit text-blue-900 p-1'>Priceline</h3>
           </div>
           <div className='bg-purple-700 m-2 w-fit p-2 place-self-center'>
-            <h3 className='bg-white w-fit text-pink-600 p-1'>UI Optimisation</h3>
+            <h3 className='bg-white w-fit text-pink-600 p-1'>Optimisation</h3>
             <Image className='h-32' src='/images/experian.png' alt='' width='200' height='200'/>
             <h3 className='bg-white w-fit text-pink-600 p-1'>Experian</h3>
           </div>
